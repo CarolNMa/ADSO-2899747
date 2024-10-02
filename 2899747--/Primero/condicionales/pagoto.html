@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago total</title>
+</head>
+<body>
+    <script>
+        let salario;
+        let subTranspo;
+        let salud
+        let pension;
+        let arl;
+        let deducci;
+        let totalPag;
+        let diasTraba=20;
+        let valorDia=20000;
+
+        salario=diasTraba*valorDia;
+        salud=salario*0.12;
+        pension=salario*0.16;
+        arl=salario*0.052;
+        deducci=salud+pension+arl;
+
+        if(salario<2300000){
+
+            subTranspo=1620000;
+        }else{
+
+            subTranspo=0;
+        }
+        totalPag=salario+subTranspo-deducci;
+
+        console.log("La salud es " +salud+ "\n");
+        console.log("La pension es " +pension+ "\n");
+        console.log("El arl es " +arl+ "\n");
+        console.log("El subsidio de transporte es " +subTranspo+ "\n");
+        console.log("El total a pagar es " +totalPag+ "\n");
+    </script>
+    
+</body>
+</html>

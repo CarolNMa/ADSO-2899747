@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="">
+    <h1 class="titulo">VENNTURE</h1>
+    <div class="formulario">
+        <form onsubmit="return validacion()">
+            <h1 class="username">USERNAME</h1>
+            <input type="text" id="username" name="username" class="name" required>
+            <h1 class="password">PASSWORD</h1>
+            <input type="password" id="password" name="password" class="contra" required>
+            <br>
+            <p><a class="datos" href="./html/contrasena.html" >FORGOT PASSWORD?</p>
+            <button type="submit" class="sesion">SIGN IN</button>
+
+            <p><a class="create" href="./html/create.html" >CREATE NEW ACCOUNT</p>
+
+        </form>
+    </div>
+    <script src="./js/validaciones.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+#principal {
+    display: block;
+    width: 1200px;
+}
+
+.periodo {
+    width: 1200px;
+    height: 80px;
+}
+
+.div{
+    float: left;
+    width: 60px;
+    height: 80px;
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(226, 86, 43);
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #ffffff, 2px -2px 0 #ffffff;
+}
+
+.atomico {
+    font-size: 15px;
+}
+
+.simbolo {
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.nombre {
+    font-size: 13px;
+    line-height: 0px;
+}
+
+.peso {
+    font-size: 10px;
+    line-height: 0px;
+}
+
+.celda {
+    float: left;
+}
+
+.no-border {
+    border: none;
+}
+
+.elemento {
+    width: 60px;
+    height: 80px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+#eq1 {
+    background-color: #e27af0;
+}
+
+#eq2 {
+    background-color: #F0B27A;
+}
+
+#eq3 {
+    background-color: rgb(226, 103, 81);
+}
+
+#eq4 {
+    background-color: rgb(226, 78, 115);
+}
+
+#eq5 {
+    background-color: rgb(78, 226, 164);
+}
+
+#eq6 {
+    background-color: rgb(190, 66, 214);
+}
+
+#eq7 {
+    background-color: rgb(132, 226, 78);
+}
+
+#eq8 {
+    background-color: rgb(78, 226, 206);
+}
+
+#eq9 {
+    background-color: rgb(85, 165, 38);
+}

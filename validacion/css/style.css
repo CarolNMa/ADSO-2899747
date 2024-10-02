@@ -1,0 +1,83 @@
+.sesion{
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 3%;
+    height: 45px;
+    width: 30%;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 500%;
+    color: aliceblue;
+    
+}
+
+body {
+    background-color: black;
+    background-image: url('../img/ImgFondo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: top; 
+    background-attachment: scroll; 
+    min-height: 100vh; 
+    margin: 0; 
+
+
+}
+
+
+input{
+    border-color: black;
+    margin-left: 28%;
+
+
+}
+
+.formulario {
+    width: 33%;
+    height: 400px;
+    background-image: url('../img/fondo-formulario.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin: 5% auto; 
+    padding: 1%;
+    box-sizing: border-box; 
+}
+
+.username{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.password{
+    font-size: 20px;
+    text-align: center;
+}
+
+.name{
+    margin-left: 18%; 
+    font-family: klavika; 
+    width: 250px; 
+    height: 20px;
+
+}
+
+
+.contra{
+    margin-left: 18%; 
+    font-family: klavika; 
+    width: 250px; 
+    height: 20px;
+
+}
+
+.datos{
+    margin-left: 30%;
+}
+
+.create{
+    margin-right: 5%;
+}

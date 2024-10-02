@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edad de 3 </title>
+</head>
+<body>
+    <script>
+        let edad1;
+        let edad2;
+        let edad3;
+        let prom;
+        let anioNac1=2014;
+        let anioNac2=1995;
+        let anioNac3=1989;
+        let anioActual=2023;
+
+        edad1=anioActual-anioNac1;
+        edad2=anioActual-anioNac2;
+        edad3=anioActual-anioNac3;
+
+        prom=(edad1+edad2+edad3)/3;
+
+        console.log("El promedio de edad es = " +prom+ "\n");
+
+        if(prom>=18){
+
+            console.log("El promedio de edades son de mayoria de edad");
+        }else {
+            console.log("El promedio de edades son menores de edad");
+        }
+    </script>
+</body>
+</html>

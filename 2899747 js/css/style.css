@@ -1,0 +1,33 @@
+
+div{
+    height: 140px;
+}
+
+#principal{
+    display: block;
+    width: 650px;
+    height: 600px;
+    
+  
+
+}
+
+#principal div{
+    border: 1px solid #000;
+    float: left;
+}
+
+#principal .row{
+    border: none;
+    display: flexbox;
+    flex-wrap: nowrap;
+    width: 650px;
+    margin-bottom: 5px;
+    
+}
+
+.celda{
+    float: left;
+    margin-right: 5px;
+    
+}

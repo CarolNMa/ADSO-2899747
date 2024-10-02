@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla del 1 al 5</title>
+</head>
+<body>
+    <script>
+        let contar;
+        let num;
+        let par=0;
+        let multi;
+        let impar=0;
+
+        for(num=1; num<=5; num++){
+            contar=1;
+
+            for(contar=1; contar<=5; contar++){
+
+                multi=num*contar;
+
+                if(multi%2==0){
+
+                    console.log(+num+ "x" +contar+ " = " +multi+ "\n");
+                    console.log(+multi+ " Es buzz");
+
+                    par=par+1
+                }else{
+
+                    console.log(+num+ "x" +contar+ " = " +multi+ "\n");
+                    console.log(+multi+ " Es bass");
+
+                    impar=impar+1
+                }
+            }
+            
+        }
+        console.log("Par es = " +par+ "\n");
+            console.log("Impar es = " +impar+ "\n");
+    </script>
+</body>
+</html>

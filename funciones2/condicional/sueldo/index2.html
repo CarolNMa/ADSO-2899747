@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/sueldos.js"></script>
+    <title>Pago</title>
+</head>
+<body>
+    <script>
+        let valorDia=20000;
+        let dias=20;
+        let salarioPersona = salario(dias,valorDia);
+        let subsidioTr = subTransp(dias,valorDia);
+        let totalPagarPer = pagoTotal(dias,valorDia);
+        console.log("El salario es de un total de " +salarioPersona);
+        console.log("El subsidio de transporte es de:" +subsidioTr);
+        console.log("El pago total es: " +totalPagarPer)
+
+        /** COMO EXPRESION
+         */
+
+         let valorDias=17500;
+        let dia=30;
+        let salarioPersonas = salarioP(dia,valorDias);
+        let subsidi = subTrans(dia,valorDias);
+        let totalPagarPers = pagoTotalp(dia,valorDias);
+        console.log("El salario es de un total de " +salarioPersonas);
+        console.log("El subsidio de transporte es de:" +subsidi);
+        console.log("El pago total es: " +totalPagarPers);
+    </script>
+</body>
+</html>
+
